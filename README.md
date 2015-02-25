@@ -6,7 +6,7 @@ Note that this isn’t very well tested and I doubt that it will work on Windows
 
 Usage
 =====
-My primary intention is that the files are used to build a custom system but if the safe sync file is run it will upload the current working directory to the SAFE url specified as a zip file called ‘dir.zip’.
+My primary intention is that the files are used to build a custom system but if the safe sync file is run it will upload the current working directory to the SAFE url specified as a zip file called `dir.zip`.
 
 `python2 safesync.py` - Uploads working directory to SAFE url specified
 
@@ -22,9 +22,9 @@ Sync Methods
 
 Settings Files
 ============
-User settings are stored in the user’s home directory under ~/.safecfg
-Project settings are stored in a .safe directory created in the current working directory
-Both can be either manually edited or edited using safesetup.py
+* User settings are stored in the user’s home directory under `~/.safecfg`
+* Project settings are stored in a .safe directory created in the current working directory
+* Both can be either manually edited or edited using `safesetup.py`
 
 Dependencies
 ===========
