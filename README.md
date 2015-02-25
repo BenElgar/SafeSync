@@ -18,5 +18,5 @@ Both can be either manually edited or edited using safesetup.py
 
 Dependencies
 ===========
-splinter
-phantomjs
+* splinter
+* phantomjs
