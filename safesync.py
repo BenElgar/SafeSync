@@ -5,8 +5,8 @@ from splinter import Browser
 import os, zipfile
 from safesetup import SafeSetup
 
-#browser = Browser('phantomjs')
-browser = Browser() # Debugging - runs in Firefox
+browser = Browser('phantomjs')
+#browser = Browser() # Debugging - runs in Firefox
 
 class SafeSync:
     url = ''
@@ -76,8 +76,8 @@ class SafeSync:
         os.remove(zip_path)
 
 def main():
-    ss = SafeSync()
-    ss.submit_directory_zip('.')
+    sync = SafeSync()
+    sync.submit_directory_zip('.')
 
 if __name__ == '__main__':
     main()
