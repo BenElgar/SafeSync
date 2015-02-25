@@ -8,7 +8,7 @@ Usage
 =====
 My primary intention is that the files are used to build a custom system but if the safe sync file is run it will upload the current working directory to the SAFE url specified.
 
-python2 safesync.py
+`python2 safesync.py`
 
 Settings Files
 ============
